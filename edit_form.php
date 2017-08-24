@@ -4,7 +4,7 @@ class block_simplehtml_edit_form extends block_edit_form {
 
   protected function specific_definition($mform) {
 
-    // Section header titlt according to language file.
+    // Section header title according to language file.
     $mform->addElement('header', 'configheader', get_string('blocksettings', 'block'));
 
     // A smaple string variable with default valu.
